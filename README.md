@@ -1,4 +1,4 @@
-#Arduino and the LCD
+# Arduino and the LCD
 
 The LCDs have a parallel interface, meaning that the microcontroller has to manipulate several interface pins at once to control the display. The interface consists of the following pins:
 
