@@ -31,9 +31,7 @@ void loop()
   lcd.setCursor(0, 1);
   // print the number of seconds since reset:
   lcd.print(millis() / 1000);
-  if(millis()/1000 >= 10)
-  {
-    lcd.setCursor(0,0);
-    lcd.print("Time:    ");
-  }
+  lcd.setCursor(0,0);
+  lcd.print("Time:    ");
+  delay(100);//just for the demo, wait a bit
 }
